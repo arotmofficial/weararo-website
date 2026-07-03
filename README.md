@@ -1,1 +1,1 @@
-# weararo-website
+# weararo.com
