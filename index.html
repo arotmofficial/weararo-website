@@ -1,17 +1,11 @@
- <!DOCTYPE html>
+<!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ARO™</title>
+  <title>BUILTDCO</title>
 
   <script src="https://cdn.tailwindcss.com"></script>
-
-  <style>
-    html{
-      scroll-behavior:smooth;
-    }
-  </style>
 </head>
 
 <body class="bg-black text-white">
@@ -22,17 +16,15 @@
     <div class="font-bold tracking-widest">ARO™</div>
 
     <nav class="hidden md:flex gap-8 text-sm text-gray-300">
-      <a href="#products" class="hover:text-white">Shop</a>
-      <a href="#drops" class="hover:text-white">Drops</a>
-      <a href="#story" class="hover:text-white">Story</a>
-      <a href="#lookbook" class="hover:text-white">Lookbook</a>
+      <a href="#">Shop</a>
+      <a href="#">Drops</a>
+      <a href="#">Story</a>
+      <a href="#">Lookbook</a>
     </nav>
 
     <div class="flex gap-4 text-sm">
       <button>Search</button>
-      <button>
-        Cart (<span id="cart-count">0</span>)
-      </button>
+      <button>Cart (0)</button>
     </div>
   </div>
 </header>
@@ -43,275 +35,133 @@
     <h1 class="text-4xl md:text-6xl font-bold">
       ARO™
     </h1>
-
     <p>Authentic. Resilient. Original.</p>
-
     <p class="mt-4 text-gray-400">
       The mark of those who choose their own path.
     </p>
 
     <div class="mt-8 flex justify-center gap-4">
-
-      <a href="#products"
-         class="bg-white text-black px-6 py-2 rounded-full inline-block hover:bg-gray-200 transition">
+      <button class="bg-white text-black px-6 py-2 rounded-full">
         Shop Latest Drop
-      </a>
-
-      <a href="#story"
-         class="border border-white px-6 py-2 rounded-full inline-block hover:bg-white hover:text-black transition">
+      </button>
+      <button class="border border-white px-6 py-2 rounded-full">
         Explore Story
-      </a>
-
+      </button>
     </div>
   </div>
 </section>
 
 <!-- PRODUCTS -->
-<section id="products" class="px-6 py-20">
-
-  <h2 class="text-2xl font-bold mb-8">
-    Latest Drop
-  </h2>
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Latest Drop</h2>
 
   <div class="grid md:grid-cols-3 gap-6">
 
-    <!-- PRODUCT 1 -->
     <div class="border border-white/10 p-4 rounded-xl">
-
       <div class="h-60 bg-zinc-800 mb-4"></div>
-
       <h3>Built Hoodie V1</h3>
-
-      <p class="text-gray-400">
-        ¥8,500
-      </p>
-
-      <button
-      onclick="addToCart('Built Hoodie V1',8500)"
-      class="mt-4 w-full bg-white text-black py-2 rounded hover:bg-gray-200 transition">
-
+      <p class="text-gray-400">¥8,500</p>
+      <button class="mt-4 w-full bg-white text-black py-2 rounded">
         Add to Cart
-
       </button>
-
     </div>
 
-    <!-- PRODUCT 2 -->
     <div class="border border-white/10 p-4 rounded-xl">
-
       <div class="h-60 bg-zinc-800 mb-4"></div>
-
       <h3>Built Tee Core</h3>
-
-      <p class="text-gray-400">
-        ¥4,200
-      </p>
-
-      <button
-      onclick="addToCart('Built Tee Core',4200)"
-      class="mt-4 w-full bg-white text-black py-2 rounded hover:bg-gray-200 transition">
-
+      <p class="text-gray-400">¥4,200</p>
+      <button class="mt-4 w-full bg-white text-black py-2 rounded">
         Add to Cart
-
       </button>
-
     </div>
 
-    <!-- PRODUCT 3 -->
     <div class="border border-white/10 p-4 rounded-xl">
-
       <div class="h-60 bg-zinc-800 mb-4"></div>
-
       <h3>Oversized Black Fit</h3>
-
-      <p class="text-gray-400">
-        ¥6,800
-      </p>
-
-      <button
-      onclick="addToCart('Oversized Black Fit',6800)"
-      class="mt-4 w-full bg-white text-black py-2 rounded hover:bg-gray-200 transition">
-
+      <p class="text-gray-400">¥6,800</p>
+      <button class="mt-4 w-full bg-white text-black py-2 rounded">
         Add to Cart
-
       </button>
-
     </div>
 
   </div>
-
 </section>
 
 <!-- STORY -->
-<section id="story" class="px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
-
+<section class="px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
   <div>
-
-    <h2 class="text-3xl font-bold">
-      What Built Different Means
-    </h2>
+    <h2 class="text-3xl font-bold">What Built Different means</h2>
 
     <p class="mt-4 text-gray-400">
       Built Different is self-awareness turned into identity.
     </p>
-
-    <p>
-      It is for those who know their difference and don't hide it.
-    </p>
+    <p>it is for those who know their difference and don't hide it.</p>
 
     <ul class="mt-6 space-y-2 text-gray-300">
       <li>• Authentic in who they are</li>
       <li>• Resilient through challenges</li>
       <li>• Original in the path they choose</li>
     </ul>
-
   </div>
 
   <div class="h-96 bg-zinc-800 rounded-xl"></div>
-
 </section>
 
 <!-- LOOKBOOK -->
-<section id="lookbook" class="px-6 py-20">
-
-  <h2 class="text-2xl font-bold mb-8">
-    Lookbook
-  </h2>
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Lookbook</h2>
 
   <div class="flex gap-4 overflow-x-auto">
-
     <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
-
     <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
-
     <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
-
   </div>
-
 </section>
 
 <!-- CATEGORIES -->
-<section id="categories" class="px-6 py-20">
-
-  <h2 class="text-2xl font-bold mb-8">
-    Categories
-  </h2>
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Categories</h2>
 
   <div class="grid md:grid-cols-4 gap-4">
-
-    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">
-      Hoodies
-    </div>
-
-    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">
-      T-Shirts
-    </div>
-
-    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">
-      Oversized
-    </div>
-
-    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">
-      Essentials
-    </div>
-
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Hoodies</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">T-Shirts</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Oversized</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Essentials</div>
   </div>
-
 </section>
 
-<!-- DROPS -->
-<section id="drops" class="px-6 py-20 text-center bg-zinc-950">
-
-  <h2 class="text-3xl font-bold">
-    Limited Drops Only
-  </h2>
-
+<!-- DROP CULTURE -->
+<section class="px-6 py-20 text-center bg-zinc-950">
+  <h2 class="text-3xl font-bold">Limited Drops Only</h2>
   <p class="text-gray-400 mt-4">
     No mass production. Every release is intentional.
   </p>
 
-  <button
-  onclick="alert('Drop alerts coming soon!')"
-  class="mt-6 bg-white text-black px-6 py-2 rounded-full hover:bg-gray-200 transition">
-
+  <button class="mt-6 bg-white text-black px-6 py-2 rounded-full">
     Get Drop Alerts
-
   </button>
-
 </section>
 
 <!-- NEWSLETTER -->
-<section id="newsletter" class="px-6 py-20 text-center">
-
-  <h2 class="text-2xl font-bold">
-    Stay ahead of every drop
-  </h2>
+<section class="px-6 py-20 text-center">
+  <h2 class="text-2xl font-bold">Stay ahead of every drop</h2>
 
   <div class="mt-6 flex justify-center">
-
-    <input
-    id="email"
-    class="px-4 py-2 bg-black border border-white/20 rounded-l"
-    placeholder="Enter email">
-
-    <button
-    onclick="subscribe()"
-    class="bg-white text-black px-6 py-2 rounded-r hover:bg-gray-200 transition">
-
-      Join
-
-    </button>
-
+    <input class="px-4 py-2 bg-black border border-white/20 rounded-l" placeholder="Enter email"/>
+    <button class="bg-white text-black px-6 py-2 rounded-r">Join</button>
   </div>
-
 </section>
 
 <!-- FOOTER -->
 <footer class="px-6 py-10 border-t border-white/10 text-gray-400 text-sm">
-
   <div class="flex justify-between">
-
-    <p>© 2026 ARO™</p>
-
+    <p>© 2026 ARO™ </p>
     <div class="flex gap-4">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
     </div>
-
   </div>
-
 </footer>
-
-<script>
-
-let cartCount = 0;
-
-function addToCart(product, price){
-
-    cartCount++;
-
-    document.getElementById("cart-count").innerText = cartCount;
-
-    alert(product + " added to cart!");
-}
-
-function subscribe(){
-
-    const email = document.getElementById("email").value;
-
-    if(email === ""){
-
-        alert("Please enter your email.");
-
-        return;
-    }
-
-    alert("Thank you for joining the ARO™ community!");
-
-    document.getElementById("email").value = "";
-}
-
-</script>
 
 </body>
 </html>
