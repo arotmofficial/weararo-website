@@ -1,80 +1,59 @@
-<!DOCTYPE html>
+ <!DOCTYPE html>
 <html lang="en">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>ARO™</title>
+  <title>BUILTDCO</title>
+
   <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-black text-white">
 
+<!-- NAVBAR -->
+<header class="sticky top-0 z-50 bg-black/80 backdrop-blur border-b border-white/10">
+  <div class="flex justify-between items-center px-6 py-4">
     <div class="font-bold tracking-widest">ARO™</div>
+
+    <nav class="hidden md:flex gap-8 text-sm text-gray-300">
+      <a href="#">Shop</a>
+      <a href="#">Drops</a>
+      <a href="#">Story</a>
+      <a href="#">Lookbook</a>
+    </nav>
 
     <div class="flex gap-4 text-sm">
       <button>Search</button>
-      <button>Connect</button>
+      <button>Cart (0)</button>
     </div>
-
   </div>
 </header>
 
-<!-- HERO (ARO) -->
+<!-- HERO -->
 <section class="h-screen flex items-center justify-center text-center bg-gradient-to-b from-black to-zinc-900 px-6">
   <div class="max-w-2xl">
-
-    <h1 class="text-4xl md:text-6xl font-bold tracking-widest">
+    <h1 class="text-4xl md:text-6xl font-bold">
       ARO™
     </h1>
-
-    <p class="mt-4 text-gray-400 text-lg">
-      Authentic · Resilient · Original
+    <p>Authentic. Resilient. Original.</p>
+    <p class="mt-4 text-gray-400">
+      The mark of those who choose their own path.
     </p>
 
-    <p class="mt-6 text-gray-300">
-      ARO™ was derived from Abdul Rahaman Osman. It represents individuality, self-belief, and taking your own path.
-    </p>
-
+    <div class="mt-8 flex justify-center gap-4">
+      <button class="bg-white text-black px-6 py-2 rounded-full">
+        Shop Latest Drop
+      </button>
+      <button class="border border-white px-6 py-2 rounded-full">
+        Explore Story
+      </button>
+    </div>
   </div>
 </section>
 
-<!-- BUILT DIFFERENT (MINDSET) -->
-<section id="built" class="px-6 py-24 text-center border-t border-white/10">
-
-  <h2 class="text-3xl md:text-5xl font-bold tracking-widest">
-    BUILT DIFFERENT
-  </h2>
-
-  <p class="mt-6 max-w-2xl mx-auto text-gray-300">
-    Built Different is the mindset behind everything under ARO™. Know Your Difference. Stand Out.
-  </p>
-
-</section>
-
-<!-- BRAND SYSTEM -->
-<section class="px-6 py-20 grid md:grid-cols-3 gap-6 text-center">
-
-  <div class="bg-zinc-900/50 p-6 rounded-xl border border-white/10">
-    <h3 class="text-xl font-semibold">ARO™</h3>
-    <p class="text-gray-400 mt-2">Authentic. Resilient. Original.</p>
-  </div>
-
-  <div class="bg-zinc-900/50 p-6 rounded-xl border border-white/10">
-    <h3 class="text-xl font-semibold">BUILT DIFFERENT</h3>
-    <p class="text-gray-400 mt-2">Mindset & philosophy</p>
-  </div>
-
-  <div class="bg-zinc-900/50 p-6 rounded-xl border border-white/10">
-    <h3 class="text-xl font-semibold">BD.</h3>
-    <p class="text-gray-400 mt-2">The symbol worn by those who live it</p>
-  </div>
-
-</section>
-
-<!-- BUILTDCO (PRODUCT) -->
-<section id="builtdco" class="px-6 py-20">
-
-  <h2 class="text-2xl font-bold mb-8">BuiltDCO</h2>
+<!-- PRODUCTS -->
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Latest Drop</h2>
 
   <div class="grid md:grid-cols-3 gap-6">
 
@@ -109,37 +88,81 @@
 </section>
 
 <!-- STORY -->
-<section id="story" class="px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
-
+<section class="px-6 py-20 grid md:grid-cols-2 gap-10 items-center">
   <div>
     <h2 class="text-3xl font-bold">What Built Different means</h2>
 
     <p class="mt-4 text-gray-400">
       Built Different is self-awareness turned into identity.
     </p>
+    <p>it is for those who know their difference and don't hide it.</p>
 
     <ul class="mt-6 space-y-2 text-gray-300">
-      <li>• Built, not given</li>
-      <li>• Discipline over comfort</li>
-      <li>• Identity through action</li>
+      <li>• Authentic in who they are</li>
+      <li>• Resilient through challenges</li>
+      <li>• Original in the path they choose</li>
     </ul>
-
   </div>
 
   <div class="h-96 bg-zinc-800 rounded-xl"></div>
+</section>
 
+<!-- LOOKBOOK -->
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Lookbook</h2>
+
+  <div class="flex gap-4 overflow-x-auto">
+    <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
+    <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
+    <div class="min-w-[300px] h-[400px] bg-zinc-800 rounded-xl"></div>
+  </div>
+</section>
+
+<!-- CATEGORIES -->
+<section class="px-6 py-20">
+  <h2 class="text-2xl font-bold mb-8">Categories</h2>
+
+  <div class="grid md:grid-cols-4 gap-4">
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Hoodies</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">T-Shirts</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Oversized</div>
+    <div class="h-40 flex items-center justify-center bg-zinc-900 border border-white/10 rounded-xl">Essentials</div>
+  </div>
+</section>
+
+<!-- DROP CULTURE -->
+<section class="px-6 py-20 text-center bg-zinc-950">
+  <h2 class="text-3xl font-bold">Limited Drops Only</h2>
+  <p class="text-gray-400 mt-4">
+    No mass production. Every release is intentional.
+  </p>
+
+  <button class="mt-6 bg-white text-black px-6 py-2 rounded-full">
+    Get Drop Alerts
+  </button>
+</section>
+
+<!-- NEWSLETTER -->
+<section class="px-6 py-20 text-center">
+  <h2 class="text-2xl font-bold">Stay ahead of every drop</h2>
+
+  <div class="mt-6 flex justify-center">
+    <input class="px-4 py-2 bg-black border border-white/20 rounded-l" placeholder="Enter email"/>
+    <button class="bg-white text-black px-6 py-2 rounded-r">Join</button>
+  </div>
 </section>
 
 <!-- FOOTER -->
 <footer class="px-6 py-10 border-t border-white/10 text-gray-400 text-sm">
-
   <div class="flex justify-between">
-    <p>© ARO™</p>
-
+    <p>© 2026 ARO™ </p>
     <div class="flex gap-4">
       <a href="#">Privacy</a>
       <a href="#">Terms</a>
     </div>
-
   </div>
+</footer>
+
+</body>
+</html>
 
